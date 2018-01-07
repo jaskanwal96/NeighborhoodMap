@@ -1,0 +1,76 @@
+html,
+body {
+  font-weight: bolder;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow:hidden;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#hide-places,#show-places {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#map {
+  bottom:0px;
+  height: 100%;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+}
+
+.res-list {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.res-list-item:hover {
+    background-color: #218838;
+    color: #FFFFFF;
+}
+
+#restaurant-head{
+  margin: 26px;
+  text-align: center;
+}
+
+#marker-image {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+ #marker-heading{
+  width: 200px;
+ }
+
+ .options-box {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 20px;
+  height: 60%;
+  opacity: 0.86;
+  position: relative;
+  z-index: 2;
+  margin: 10px;
+  text-align: left;
+  width: 30%;
+}
+
+@media only screen and (max-width: 730px) {
+    
+    .options-box {
+        width: 100%;
+        height: 200px;
+        overflow-y: scroll;
+    }
+    .my_data {
+      margin : auto;  
+    }
+}
